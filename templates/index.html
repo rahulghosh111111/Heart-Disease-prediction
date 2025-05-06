@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h2>Enter Patient Details</h2>
+    <form action="/predict" method="post">
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" name="age" id="age" required></td>
+            </tr>
+            <tr>
+                <td><label for="sex">Sex (0 = Female, 1 = Male):</label></td>
+                <td><input type="number" name="sex" id="sex" required></td>
+            </tr>
+            <tr>
+                <td><label for="cp">Chest Pain Type (0-3):</label></td>
+                <td><input type="number" name="cp" id="cp" required></td>
+            </tr>
+            <tr>
+                <td><label for="trestbps">Resting Blood Pressure:</label></td>
+                <td><input type="number" name="trestbps" id="trestbps" required></td>
+            </tr>
+            <tr>
+                <td><label for="chol">Cholesterol:</label></td>
+                <td><input type="number" name="chol" id="chol" required></td>
+            </tr>
+            <tr>
+                <td><label for="fbs">Fasting Blood Sugar (0 or 1):</label></td>
+                <td><input type="number" name="fbs" id="fbs" required></td>
+            </tr>
+            <tr>
+                <td><label for="restecg">Resting ECG (0-2):</label></td>
+                <td><input type="number" name="restecg" id="restecg" required></td>
+            </tr>
+            <tr>
+                <td><label for="thalach">Max Heart Rate Achieved:</label></td>
+                <td><input type="number" name="thalach" id="thalach" required></td>
+            </tr>
+            <tr>
+                <td><label for="exang">Exercise Induced Angina (0 or 1):</label></td>
+                <td><input type="number" name="exang" id="exang" required></td>
+            </tr>
+            <tr>
+                <td><label for="oldpeak">Oldpeak:</label></td>
+                <td><input type="number" step="0.1" name="oldpeak" id="oldpeak" required></td>
+            </tr>
+            <tr>
+                <td><label for="slope">Slope (0-2):</label></td>
+                <td><input type="number" name="slope" id="slope" required></td>
+            </tr>
+            <tr>
+                <td><label for="ca">CA (0-4):</label></td>
+                <td><input type="number" name="ca" id="ca" required></td>
+            </tr>
+            <tr>
+                <td><label for="thal">Thal (0-3):</label></td>
+                <td><input type="number" name="thal" id="thal" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><button type="submit">Predict</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
