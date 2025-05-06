@@ -27,4 +27,5 @@ This application allows users to input health-related data such as age, blood pr
    ```bash
    git clone https://github.com/rahulghosh111111/heart-disease-prediction.git
    cd heart-disease-prediction
+![Screenshot 2025-05-06 231747](https://github.com/user-attachments/assets/0c844001-6189-468e-af85-9d1f85a7df57)
 
